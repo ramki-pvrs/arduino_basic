@@ -73,8 +73,8 @@ Serial.println("Connecting to Wifi");
    while(check_connection==0)
   {
     Serial.print(".");
-  //ESP8266.print("AT+CWJAP=\"Ram_oppo\",\"oppo_tej\"\r\n");
-  ESP8266.print("AT+CWJAP=\"dlink-2286\",\"Suni_6820\"\r\n");
+  //ESP8266.print("AT+CWJAP=\"mobilehotspot name\",\"passwd\"\r\n");
+  ESP8266.print("AT+CWJAP=\"2GHz home wifi name\",\"passwd\"\r\n");
   ESP8266.setTimeout(5000);
  if(ESP8266.find("WIFI CONNECTED\r\n")==1)
  {
