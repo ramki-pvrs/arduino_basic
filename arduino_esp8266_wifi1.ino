@@ -35,6 +35,12 @@ Serial Port display will be (time stamp enabled)
 07:09:48.179 -> IP Address = 
 
 
+Ramki's Understanding:
+This code is loaded in Arduino and not in ESP8266
+This makes Arduino wifi enabled microcontroller through ESP8266
+
+if you want to see IP address allocated, goto 192.168.0.1 home DLINK router and check the status, it will show some esp_ ip address
+
 
 */
 
