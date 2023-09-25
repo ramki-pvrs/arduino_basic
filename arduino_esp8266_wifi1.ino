@@ -1,5 +1,13 @@
 /*
-ESP8266 to Ardunio PIN connections
+Some References:
+
+https://github.com/esp8266/Arduino/issues/7125
+https://www.youtube.com/watch?v=2r8evY6-1M0&t=62s
+
+This working code came from https://www.youtube.com/watch?v=RMQINbokCYg&t=104s
+
+
+Ardunio to ESP8266 01S PIN connections
 
 Arduino Pin2 to ESP8266 Tx
 
